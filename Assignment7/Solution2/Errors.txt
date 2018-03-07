@@ -1,0 +1,6 @@
+Transmission Type attribute should be present in Vehicle.
+Redundant relationship between Employee and Payment.
+Since Vehicle Details can be recorded without an employee, makesale Cardinality near Employee should be zero.
+Account Should be a regular entity.IncomeOf and ExpenseOf should be made regular with suitable cardinality changes.
+Since Vehicle can remain for a lot of days before sale, therefore Purchases cardinality  near customer and Sold cardinality near Payment should be zero.
+
